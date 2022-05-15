@@ -96,10 +96,6 @@ function elementBoundEffect(el) {
   }];
 }
 
-$("header").append("<div class='glitch-window'></div>");
-//fill div with clone of real header
-$( "h1.glitched" ).clone().appendTo( ".glitch-window" );
-
 // packages/alpinejs/src/mutation.js
 var onAttributeAddeds = [];
 var onElRemoveds = [];

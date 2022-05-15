@@ -11,7 +11,8 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
         <!-- Styles -->
-        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        <!-- <link rel="stylesheet" href="{{ mix('css/app.css') }}"> -->
+        <!-- <link rel="stylesheet" href="{{ mix('css/style.css') }}"> -->
         <!-- <link rel="stylesheet" href="{{ 'css/app.scss' }}"> -->
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -28,11 +29,12 @@
         <script>
 	    </script>
         <script src="{{ mix('js/app.js') }}" defer></script>
+        <!-- <script src="{{ mix('js/main.js') }}" defer></script> -->
     </head>
     <body class="font-sans antialiased">
         <x-jet-banner />
 
-        <div class="min-h-screen bg-gray-100">
+        <div class="min-h-screen bg-white-100">
             @livewire('navigation-menu')
 
             <!-- Page Heading -->
