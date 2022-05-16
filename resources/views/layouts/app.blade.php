@@ -11,9 +11,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
         <!-- Styles -->
-        <!-- <link rel="stylesheet" href="{{ mix('css/app.css') }}"> -->
-        <!-- <link rel="stylesheet" href="{{ mix('css/style.css') }}"> -->
-        <!-- <link rel="stylesheet" href="{{ 'css/app.scss' }}"> -->
+        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
@@ -29,7 +27,23 @@
         <script>
 	    </script>
         <script src="{{ mix('js/app.js') }}" defer></script>
-        <!-- <script src="{{ mix('js/main.js') }}" defer></script> -->
+                    <!-- JavaScript Libraries -->
+            <!-- <script src="lib/jquery/jquery.min.js"></script>
+            <script src="lib/jquery/jquery-migrate.min.js"></script>
+            <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <script src="lib/easing/easing.min.js"></script>
+            <script src="lib/superfish/hoverIntent.js"></script>
+            <script src="lib/superfish/superfish.min.js"></script>
+            <script src="lib/wow/wow.min.js"></script>
+            <script src="lib/venobox/venobox.min.js"></script>
+            <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+            <!-- Contact Form JavaScript File -->
+            <!-- <script src="contactform/contactform.js"></script> --> 
+
+            <!-- Template Main Javascript File -->
+            <script src="js/main.js"></script>
+
     </head>
     <body class="font-sans antialiased">
         <x-jet-banner />
