@@ -1324,6 +1324,9 @@ p {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 120%;
+  background-size: cover;
+  background-position: center;
+  bottom: 0;
 }
 .logo {
   width:50px;
@@ -3693,6 +3696,9 @@ select {
   }
   .bg-img2 {
     position: inherit !important;
+    background-size: cover;
+    background-position: center;
+    bottom: 0;
   }
 
   .masthead .masthead-content {
