@@ -57,6 +57,21 @@
 # Header
 --------------------------------------------------------------*/
 
+
+@media (max-width: 750px) {
+  .pull-left {
+    float: center !important;
+  }
+  .nav750{
+  display: none;
+  }
+  .nav-menu-container{
+    display: none !important; 
+    }
+}
+
+
+
 #header {
   height: 90px;
   padding: 25px 0;
@@ -408,6 +423,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
   font-weight: 900;
 }
+
+/* @media (max-width: 768px){
+  .glitch{
+
+  }
+} */
+
+
 .glitch::before,
 .glitch::after {
   content: attr(data-text);
@@ -1410,6 +1433,7 @@ p {
 
   .glitch {
     font-size: 50px;
+    /* margin-top: 1px; */
   }
 }
 

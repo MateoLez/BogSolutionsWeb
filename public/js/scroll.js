@@ -1,38 +1,42 @@
+// Section intro
 ScrollReveal({
-// delay: 400,
-duration   : 1800,
-distance   : '90px',
+duration   : 600,
+distance   : '80px',
 easing     : 'ease-out',
 origin     : 'top',
 reset      : true,
 scale      : 1,
 viewFactor : 0,
 interval: 106
-}).reveal('.hero-section' );
-
+}).reveal('.headline' );
+    
+// Servicios
 ScrollReveal({
-duration   : 600,
-distance   : '80px',
+// delay: 400,
+duration   : 1800,
+distance   : '90px',
 easing     : 'ease-out',
 origin     : 'bottom',
 reset      : true,
 scale      : 1,
 viewFactor : 0,
 interval: 106
-}).reveal('.headline' );
+}).reveal('.hero-section' );
 
+// Servicios Titulo
 ScrollReveal({
-delay: 400,
+delay: 500,
 duration   : 1800,
 distance   : '90px',
 easing     : 'ease-out',
-origin     : 'top',
+origin     : 'bottom',
 reset      : true,
 scale      : 1,
 viewFactor : 0,
 interval: 106
 }).reveal('.titulo' );
 
+// Clientes
 ScrollReveal({
 duration   : 600,
 distance   : '80px',
