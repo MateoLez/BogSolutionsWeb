@@ -7,16 +7,15 @@
 
       <div class="nav750">
         <nav id="nav-menu-container">
-          <ul class="nav-menu">
-            <li class="menu-active"><a href="#intro">Inicio</a></li>
+          <div class="nav-menu"> 
+            <li ><a href="#intro">Inicio</a></li>
             <li><a href="#servicios">Servicios</a></li>
             <li><a href="#clientes">Clientes</a></li>
-            <li><a href="#nosotros">Nosotros</a></li>
-            <li><a href="#contactanos">Contactanos</a></li>
-          </ul>
+            <li><a href="#" >Nosotros</a></li>
+            <li><a href="#" >Contactanos</a></li>
+          </div>
         </nav>
       </div>
-
 
     </div>
   </header>

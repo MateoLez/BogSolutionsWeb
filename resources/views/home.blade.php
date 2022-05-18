@@ -33,7 +33,6 @@
 
 <!-- Titulo Servicios -->
 <section id="servicios">
-
 <div class="titulo">
   <div class="glitch" data-text="Servicios">Servicios</div>
 </div>
@@ -46,8 +45,8 @@
     <div class="card">
         <div class="card__background" style="background-image: url(/img/bogservice1.jpg)"></div>
           <div class="card__content">
-            <p class="card__category">Category</p>
-            <h3 class="card__heading">Example Card Heading</h3>
+            <p class="card__category">Servicio</p>
+            <h3 class="card__heading">Creación de Pagina Web</h3>
           </div>
         </div>
 
@@ -55,16 +54,16 @@
       <div class="card">
           <div class="card__background" style="background-image: url(/img/bogservice2.jpg)"></div>
             <div class="card__content">
-              <p class="card__category">Category</p>
-              <h3 class="card__heading">Example Card Heading</h3>
+              <p class="card__category">Servicio</p>
+              <h3 class="card__heading">Asesoramiento sobre el mejor software para tu Empresa</h3>
             </div>
           </div>
 
       <div class="card">
           <div class="card__background" style="background-image: url(/img/bogservice3.jpg)"></div>
             <div class="card__content">
-              <p class="card__category">Category</p>
-              <h3 class="card__heading">Example Card Heading</h3>
+              <p class="card__category">Servicio</p>
+              <h3 class="card__heading">Community Manager</h3>
             </div>
           </div>
 

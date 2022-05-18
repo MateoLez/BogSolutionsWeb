@@ -282,6 +282,40 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+#servicios{
+  margin-bottom: 55px;
+}
+
+@media (max-width: 768px) {
+#servicios{
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+}
+
+/* #nav-menu-container li {
+padding: 8px;
+text-decoration: none;
+display: inline-block;
+margin-left: 8px;
+font-family: "Raleway", sans-serif;
+font-weight: 600;
+font-size: 14px;
+outline: none;
+}
+
+#nav-menu-container a {
+color: rgba(202, 206, 221, 0.8);
+  }
+
+.hover a:hover {
+    color: #fff !important;
+  } */
+
 /* Mobile Nav Toggle */
 
 #mobile-nav-toggle {
@@ -1291,7 +1325,7 @@ body{
 }
 
 .card-grid:hover > .card:not(:hover) .card__background{
-  filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+  filter: brightness(0.5)  blur(3px);
 }
 
 .card__content{
