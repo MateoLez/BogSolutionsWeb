@@ -176,12 +176,12 @@
 </div>
 
 </section>
-<!--Content ends-->
+<!--Final Section Clientes-->
 
-
+<!-- Seccion Nosotros -->
 <section id="nosotros" class="section-team">
     <div class="container">
-      <!-- Start Header Section -->
+      <!-- Titulo Nosotros-->
       <div class="row justify-content-center text-center">
         <div class="col-md-8 col-lg-6">
           <div class="header-section">
@@ -190,13 +190,13 @@
           </div>
         </div>
       </div>
-      <!-- / End Header Section -->
+      <!-- Final Nosotros -->
       <div class="row">
         <!-- Start Single Person -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="single-person">
             <div class="person-image">
-              <img src="/img/BogsMateo.jpg" alt="">
+              <img src="/img/BogsKarol.jpg" alt="">
               <span class="icon">
               <i class="fas fa-clipboard"></i>
               </span>
@@ -204,22 +204,22 @@
             <div class="person-info">
               <h3 class="full-name">Karol Diaz&nbsp;&nbsp;&nbsp;</h3>
               <span class="speciality">Gerente de Desarrollo</span>
-              <nav>
-                          <ul class="social">
-                            <li>
-                                <a href="#" class="color fa fa-facebook"></a>
-                            </li>
-                            <li>
-                                <a href="#" class="fa fa-twitter"></a>
-                            </li>
-                            <li>
-                                <a href="#" class="fa fa-google-plus"></a>
-                            </li>
-                            <li>
-                                <a href="#" class="fa fa-linkedin"></a>
-                            </li>
-                        </ul>
-                      </nav>
+                    <nav>
+                        <ul class="social">
+                          <li>
+                              <a href="#" class="color fa fa-facebook"></a>
+                          </li>
+                          <li>
+                              <a href="#" class="fa fa-twitter"></a>
+                          </li>
+                          <li>
+                              <a href="#" class="fa fa-google-plus"></a>
+                          </li>
+                          <li>
+                              <a href="#" class="fa fa-linkedin"></a>
+                          </li>
+                      </ul>
+                  </nav>
             </div>
           </div>
         </div>
@@ -236,22 +236,22 @@
             <div class="person-info">
               <h3 class="full-name">Mateo Gonzalez</h3>
               <span class="speciality">Desarrollador Web Full Stack</span>
-              <nav>
-                          <ul class="social">
-                            <li>
-                                <a href="#" class="color fa fa-facebook"></a>
-                            </li>
-                            <li>
-                                <a href="#" class="fa fa-twitter"></a>
-                            </li>
-                            <li>
-                                <a href="#" class="fa fa-google-plus"></a>
-                            </li>
-                            <li>
-                                <a href="#" class="fa fa-linkedin"></a>
-                            </li>
-                        </ul>
-                      </nav>
+                    <nav>
+                        <ul class="social">
+                          <li>
+                              <a href="#" class="color fa fa-facebook"></a>
+                          </li>
+                          <li>
+                              <a href="#" class="fa fa-twitter"></a>
+                          </li>
+                          <li>
+                              <a href="#" class="fa fa-google-plus"></a>
+                          </li>
+                          <li>
+                              <a href="#" class="fa fa-linkedin"></a>
+                          </li>
+                      </ul>
+                  </nav>
             </div>
           </div>
         </div>
@@ -260,7 +260,7 @@
                 <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="single-person">
             <div class="person-image">
-              <img src="https://i.ibb.co/25zdRMr/person3.jpg" alt="">
+              <img src="/img/BogsYerson.jpg" alt="">
               <span class="icon">
               <i class="fas fa-mobile"></i>
               </span>
@@ -268,23 +268,22 @@
             <div class="person-info">
               <h3 class="full-name">Yerson Gomez</h3>
               <span class="speciality">Desarrollador Movil</span>
-              
-                        <nav>
-                          <ul class="social">
-                            <li>
-                                <a href="#" class="color fa fa-facebook"></a>
-                            </li>
-                            <li>
-                                <a href="#" class="fa fa-twitter"></a>
-                            </li>
-                            <li>
-                                <a href="#" class="fa fa-google-plus"></a>
-                            </li>
-                            <li>
-                                <a href="#" class="fa fa-linkedin"></a>
-                            </li>
-                        </ul>
-                      </nav>
+                      <nav>
+                        <ul class="social">
+                          <li>
+                              <a href="#" class="color fa fa-facebook"></a>
+                          </li>
+                          <li>
+                              <a href="#" class="fa fa-twitter"></a>
+                          </li>
+                          <li>
+                              <a href="#" class="fa fa-google-plus"></a>
+                          </li>
+                          <li>
+                              <a href="#" class="fa fa-linkedin"></a>
+                          </li>
+                      </ul>
+                  </nav>
             </div>
           </div>
         </div>
@@ -302,38 +301,22 @@
             <div class="person-info">
               <h3 class="full-name">Brenda Duarte</h3>
               <span class="speciality">Community Manager</span>
-              <nav>
-                          <ul class="social">
-                            <li>
-                                <a href="#" class="color fa fa-facebook"></a>
-                            </li>
-                            <li>
-                                <a href="#" class="fa fa-twitter"></a>
-                            </li>
-                            <li>
-                                <a href="#" class="fa fa-google-plus"></a>
-                            </li>
-                            <li>
-                                <a href="#" class="fa fa-linkedin"></a>
-                            </li>
-                        </ul>
-                      </nav>
-            </div>
-          </div>
-        </div>
-        <!-- / End Single Person -->
-        <!-- Start Single Person -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="single-person">
-            <div class="person-image">
-              <img src="https://i.ibb.co/w0ynr2Q/person4.jpg" alt="">
-              <span class="icon">
-                <i class="fab fa-js"></i>
-              </span>
-            </div>
-            <div class="person-info">
-              <h3 class="full-name">John Smith</h3>
-              <span class="speciality">Javascript Developer</span>
+                    <nav>
+                        <ul class="social">
+                          <li>
+                              <a href="#" class="color fa fa-facebook"></a>
+                          </li>
+                          <li>
+                              <a href="#" class="fa fa-twitter"></a>
+                          </li>
+                          <li>
+                              <a href="#" class="fa fa-google-plus"></a>
+                          </li>
+                          <li>
+                              <a href="#" class="fa fa-linkedin"></a>
+                          </li>
+                      </ul>
+                  </nav>
             </div>
           </div>
         </div>
@@ -341,6 +324,76 @@
       </div>
     </div>
 </section>
+
+
+<section id="contactanos">
+<div class="wrapper">
+  <br>
+<div class="container">
+
+
+
+		<div class="section-contact">
+			<div class="row justify-content-center">
+				<div class="col-12 col-lg-10 col-xl-8">
+					<div class="header-section text-center">
+						<h2 class="title">¿Quieres Saber Más?
+							<span class="big-title">CONTÁCTANOS</span>
+						</h2>
+						<p class="description">Complete el formulario y nos pondremos en contacto en el menor tiempo posible, para enfrentar juntos los retos de tu empresa.</p>
+						
+					</div>
+				</div>
+			</div>
+			<div class="form-contact">
+				<form>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="single-input">
+								<i class="fas fa-user"></i>
+								<input type="text" name="name" placeholder="Ingresa tu Nombre">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="single-input">
+								<i class="fas fa-envelope"></i>
+								<input type="text" name="email" placeholder="Ingresa tu Correo">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="single-input">
+								<i class="fas fa-phone"></i>
+								<input type="text" name="phoneNumber" placeholder="Ingresa tu celular">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="single-input">
+								<i class="fas fa-check"></i>
+								<input type="text" name="subject" placeholder="Ingresa tu empresa">
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="single-input">
+								<i class="fas fa-comment-dots"></i>
+								<textarea placeholder="Ingresar una breve descripcion del servicio que quieres cotizar"></textarea>
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="submit-input text-center">
+								<input type="submit" name="submit" value="ENVIAR">
+							</div>
+              
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+</section>
+
+
 
 <!-- Scroll Reveal JS -->
 <script src="js/scroll.js"></script>
