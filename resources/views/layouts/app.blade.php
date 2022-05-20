@@ -18,6 +18,11 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+        
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
 
         @livewireStyles
 
@@ -31,6 +36,8 @@
         <!-- Template Main Javascript File -->
         <script src="js/main.js"></script>
 
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/267f04779f.js" crossorigin="anonymous"></script>
 
 
     </head>
