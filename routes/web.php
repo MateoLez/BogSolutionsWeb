@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactanosController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,3 +31,12 @@ Route::get('/home', function () {
 //         return view('dashboard');
 //     })->name('dashboard');
 // });
+
+// Route::get('contactanos', function () {
+
+ 
+
+// })->name('contactanos.index');
+Route::get('home', [ContactanosController::class, 'index'])->name('contactanos.index');
+Route::post('home', [ContactanosController::class, 'store'])->name('contactanos.store');
+Route::post('', [ContactanosController::class, 'store'])->name('contactanos.store');

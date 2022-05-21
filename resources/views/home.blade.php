@@ -346,36 +346,42 @@
 				</div>
 			</div>
 			<div class="form-contact">
-				<form>
+				<form action="{{ route('contactanos.store') }}" method="POST">
+          <!-- Token Post -->
+          @csrf
 					<div class="row">
 						<div class="col-md-6">
 							<div class="single-input">
 								<i class="fas fa-user"></i>
-								<input type="text" name="name" placeholder="Ingresa tu Nombre">
+								<input type="text" name="nombre" placeholder="Ingresa tu Nombre" onkeypress="return soloLetras(event)"
+                    pattern="[a-zA-ZÀ-ÿ\s]{1,18}" maxlength="18" title="Nombre es requerido" required>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="single-input">
 								<i class="fas fa-envelope"></i>
-								<input type="text" name="email" placeholder="Ingresa tu Correo">
+								<input type="text" name="correo" placeholder="Ingresa tu Correo" 
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Debe contener '@' y '.' y es requerido"  maxlength="30" required>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="single-input">
 								<i class="fas fa-phone"></i>
-								<input type="text" name="phoneNumber" placeholder="Ingresa tu celular">
+								<input type="text" name="celular" placeholder="Ingresa tu celular" title="Celular es requerido"
+                pattern="[0-9]{6,12}" title="Minimo 6 numeros y maximo 12" onkeypress="return numeros(event)" maxlength="12" required>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="single-input">
 								<i class="fas fa-check"></i>
-								<input type="text" name="subject" placeholder="Ingresa tu empresa">
+								<input type="text" name="empresa" placeholder="Ingresa tu empresa" onkeypress="return soloLetras(event)"
+                    pattern="[a-zA-ZÀ-ÿ\s]{1,18}" maxlength="25">
 							</div>
 						</div>
 						<div class="col-12">
 							<div class="single-input">
 								<i class="fas fa-comment-dots"></i>
-								<textarea placeholder="Ingresar una breve descripcion del servicio que quieres cotizar"></textarea>
+								<textarea name="mensaje" placeholder="Ingresar una breve descripcion del servicio que quieres cotizar"></textarea>
 							</div>
 						</div>
 						<div class="col-12">
@@ -386,6 +392,17 @@
 						</div>
 					</div>
 				</form>
+
+        <!-- Mensaje si se envio correctamente -->
+        @if(session('enviado'))
+          <script>
+            Swal.fire(
+            '¡Mensaje enviado Correctamente!',
+            'Nos pondremos en contacto lo mas pronto posible',
+            'success'
+          )
+          </script>
+        @endif
 			</div>
 		</div>
 	</div>
@@ -393,9 +410,109 @@
 
 </section>
 
+<!-- Footer -->
+<footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Dirección</h4>
+                                <span>Quintas de Soacha, Cundinamarca</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Celular</h4>
+                                <span>+57 320 2975605</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Correo</h4>
+                                <span>informacion@bogsolutions.com.co</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="/img/Bogslogo2.png" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Siguenos</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Enlaces útiles</h3>
+                            </div>
+                            <ul>
+                              <li ><a href="#intro">Inicio</a></li>
+                              <li><a href="#servicios">Servicios</a></li>
+                              <li><a href="#clientes">Clientes</a></li>
+                              <li><a href="#nosotros" >Nosotros</a></li>
+                              <li><a href="#contactanos" >Contactanos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribete</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>No olvides suscribirte para que recibas todas nuestra noticias y promociones, completa el formulario a continuación.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Correo Electronico">
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-12 text-center text-lg-center">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2022, Todos los derechos reservados <a>BOG Solutions</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 
 
 <!-- Scroll Reveal JS -->
 <script src="js/scroll.js"></script>
+
 
 </x-app-layout>

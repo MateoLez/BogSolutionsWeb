@@ -15,12 +15,7 @@
 
         <!-- Scripts -->
         <script src="https://unpkg.com/scrollreveal"></script>
-        <!-- <script>
-		ScrollReveal({ 
-            duration: '1000',
-            origin: 'botton',
-            distance: '-100px' })
-        </script> -->
+
         <script src="{{ mix('js/app.js') }}" defer></script>
     </head>
     <body>
